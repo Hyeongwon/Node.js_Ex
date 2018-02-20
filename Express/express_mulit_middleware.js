@@ -9,6 +9,7 @@ app.use(function(req, res, next) {
 
     console.log("first middleware...!!!");
     req.user = "mike";
+   // res.send({name:'Josh', age:20});
 
     next();
 });
